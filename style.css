@@ -68,12 +68,14 @@ footer {
 @media screen and (max-width:768px) {
   main {
     width: 100%;
-    margin: 50px 5%;
+    padding: 0% 5%;
+    margin: 50px 0%;
     display: block;
   }
 
   .step-list {
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
+    margin-right: unset;
   }
 }
